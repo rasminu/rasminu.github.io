@@ -1,0 +1,550 @@
+/* styles.css */
+
+body {
+    font-family: Tahoma, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    font-size: 55px;
+}
+
+.no-margin-bottom {
+    margin-bottom: 0;
+}
+
+.no-margin-top {
+    margin-top: 0;
+}
+
+.no-underline {
+    text-decoration: none;
+}
+
+.underline-text {
+    text-decoration: underline;
+}
+
+h2 {
+    font-family: 'Tahoma', sans-serif;
+    font-size: 40px;
+    letter-spacing: 0em;
+}
+
+h3 {
+    font-family: 'Tahoma', serif;
+    font-size: 30px;
+    letter-spacing: 0em;
+    color: rgb(11, 82, 86);
+}
+
+h4 {
+    font-family: 'Tahoma', serif;
+    font-size: 22px;
+    letter-spacing: 0em;
+    color: rgb(11, 82, 86);
+    margin-top: 0;
+}
+
+p {
+    font-size: 20px;
+}
+
+.para-text {
+    font-size: 16px; /* Adjust as needed */
+    line-height: 1.3; /* Adjust line height as needed */
+    text-align: justify;
+    width: 79%;
+    margin: 0 auto;
+}
+
+header {
+    background-image: url('https://images.pexels.com/photos/10194248/pexels-photo-10194248.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 100px; /* Add padding to make the content more visible */
+    text-align: center;
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+    font-size: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    margin: 0 20px;
+    border-radius: 100px;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+/* About me */
+
+.aboutme-image-with-text {
+    width: 80%;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+}
+
+.aboutme-image-container {
+    flex: 0;
+    align-items: center;
+}
+
+.aboutme-image {
+    width: 330px; /* Set the desired width for the image */
+    height: auto;
+    display: block;
+}
+
+.aboutme-image-caption {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    color: rgb(145, 145, 145);
+    margin-top: 2px;
+    text-align: center;
+}
+
+.aboutme-text-content {
+    flex: 3;
+    box-sizing: border-box;
+}
+
+.aboutme-text-content p {
+    text-align: justify; /* Adjust the margin as needed */
+}
+
+/* styles.css */
+
+.document-link {
+    display: inline-block;
+    padding: 8px 16px; /* Adjust the padding as needed */
+    background-color: rgb(11, 82, 86); /* Green color, adjust as needed */
+    color: #fff; /* White text color */
+    text-decoration: none;
+    border-radius: 4px; /* Rounded corners, adjust as needed */
+}
+
+.document-link:hover {
+    background-color: #45a049; /* Darker green color on hover, adjust as needed */
+}
+
+/* styles.css */
+
+/* Add this rule to your existing CSS file */
+#Education {
+    text-align: center; /* Adjust as needed */
+}
+
+.education-item {
+    display:inline-flex;
+    margin-left: 200px;
+    min-height: 110px;
+    width: 60%;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px; /* Adjust as needed for spacing */
+}
+
+.university-logo {
+    align-items: center;
+    max-width: 1000px; /* Adjust as needed */
+    margin-right: 20px; /* Adjust as needed for spacing */
+}
+
+.university-logo img {
+    max-width: 100px;
+}
+
+.education-text {
+    flex: 1;
+    text-align: justify;
+    align-items: center;
+}
+
+.education-text p {
+    margin: 0; /* Remove default margin */
+}
+
+.education-text a {
+    color: black; /* Remove default margin */
+}
+
+#Teaching {
+    text-align: center; /* Adjust as needed */
+}
+
+.teaching-item {
+    display:inline-flex;
+    margin-left: 200px;
+    min-height: 110px;
+    width: 60%;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px; /* Adjust as needed for spacing */
+}
+
+.teaching-logo {
+    align-items: center;
+    max-width: 1000px; /* Adjust as needed */
+    margin-right: 20px; /* Adjust as needed for spacing */
+}
+
+.teaching-logo img {
+    max-width: 100px;
+}
+
+.teaching-text {
+    flex: 1;
+    text-align: justify;
+    align-items: center;
+}
+
+.teaching-text p {
+    margin: 0; /* Remove default margin */
+}
+
+.teaching-text a {
+    color: black; /* Remove default margin */
+}
+
+.footer-logo {
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Add this rule to your existing CSS file */
+.figure-img {
+    width: 100%;
+}
+
+.text-container-left {
+    float: left;
+    text-align: justify;
+    justify-content: center;
+    align-items: center;
+    width: 60%; /* Adjust the width as needed */
+    margin-right: 0px; /* Adjust the margin as needed */
+    margin-left: 150px; /* Adjust the margin as needed */
+}
+
+.text-container-right {
+    float: right;
+    text-align: justify;
+    justify-content: center;
+    align-items: center;
+    width: 50%; /* Adjust the width as needed */
+    margin-right: 140px; /* Adjust the margin as needed */
+    margin-left: 20px; /* Adjust the margin as needed */
+    
+}
+
+.centered-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Set a height to ensure it takes up the full viewport height */
+}
+
+/* Clear the float to prevent layout issues */
+figure::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.section-buttons {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.section-button {
+    width: 300px; /* Adjust as needed */
+    height: 70px; /* Adjust as needed */
+    background: url('images/header_bck.jpg') center/cover; /* Set the path to your background image */
+    border-radius: 20px; /* Make the button a circle */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff; /* White text color */
+    text-decoration: none;
+    font-size: 24px; /* Adjust as needed */
+}
+
+.section-button:hover {
+    /* Add hover effect as needed */
+    opacity: 0.8;
+}
+
+.two-column-section {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0;
+}
+
+.column {
+    flex-basis: 48%; /* Adjust as needed */
+    padding: 10px; /* Add padding for spacing between content and border */
+    border: 2px solid #ddd; /* Add a border for visual separation */
+    border-radius: 10px;
+}
+
+.column-contact {
+    flex-basis: 48%; /* Adjust as needed */
+}
+
+.column-contact p {
+    text-align: center;
+}
+
+.centered-image-line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    overflow: scroll;
+}
+
+.centered-image {
+    max-height: 70px; /* Set the desired height for your images */
+    margin: 0 10px; /* Adjust spacing between images */
+}
+
+.journal-link {
+    color: rgb(11, 82, 86); /* Change the color as needed */
+    text-decoration: none; /* Remove the underline */
+}
+
+.journal-link:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+.email-link {
+    display: inline-block;
+    padding: 8px 16px; /* Adjust the padding as needed */
+    background-color: rgb(11, 82, 86); /* Green color, adjust as needed */
+    color: #fff; /* White text color */
+    text-decoration: none;
+    border-radius: 4px; /* Rounded corners, adjust as needed */
+}
+
+.email-link:hover {
+    background-color: #45a049; /* Darker green color on hover, adjust as needed */
+}
+
+/* Add this rule to your existing CSS file */
+#footer {
+    background-color: #000000;
+    text-align: center;
+    padding: 10px;
+}
+
+#footer a {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+#footer img {
+    max-height: 30px;
+}
+
+.scroll-to-top {
+    position: fixed;
+    bottom: 8px;
+    right: 10px;
+    background-color: rgb(11, 82, 86);
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none; /* Initially hide the button */
+    font-size: 15px;
+    font-weight: bold; /* Make the text bold */
+}
+
+.scroll-to-top:hover {
+    background-color: #45a049;
+}
+
+
+/* Section styles */
+.section-container {
+    width: 70%;
+    height: 400px;
+    margin: 0 auto; /* Center the section horizontally */
+    display: flex;
+    align-items: center;
+    padding: 40px; /* Add padding for spacing between content and border */
+    border: 2px solid #ddd; /* Add a border for visual separation */
+    border-radius: 10px;
+}
+
+.text-side {
+    flex: 1;
+    padding: 20px; /* Adjust padding as needed */
+}
+
+.image-side {
+    flex: 1;
+    height: 400px;
+    text-align: center; /* Center the content horizontally */
+    align-items: center;
+}
+
+.image-side img {
+    max-width: 100%; /* Ensure the figure doesn't exceed its container */
+    max-height: 100%; /* Added to ensure the image doesn't exceed the container height */
+    display: block;
+    margin: 0 auto; /* Center the image horizontally */
+}
+
+.image-caption {
+    text-align: justify;
+    max-width: 70%;
+    font-size: 15px;
+    margin-top: 10px; /* Adjust the margin as needed */
+}
+
+/* Publication section styles */
+
+/* Global counter for the entire document */
+body {
+    counter-reset: global-publication-counter;
+}
+
+.publication-section {
+    width: 54%;
+    margin: 0 auto;
+}
+
+.publication-text {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.publication-text p {
+    margin: 0;
+    font-weight: bold;
+    counter-increment: global-publication-counter; /* Increment the counter for each paragraph */
+    position: relative;
+}
+
+.publication-text p::before {
+    content: "["counter(global-publication-counter) "] "; /* Add the counter number before each paragraph */
+    font-weight: bold;
+    margin-right: 8px; /* Adjust the spacing between the number and the text */
+}
+
+.publication-citation {
+    font-style: italic;
+    text-align: left;
+    margin-top: 0px;
+}
+
+.publication-citation p {
+    margin: 0;
+    margin-left: 45px;
+}
+
+/* Section with 70% width, border, and margin */
+.custom-section {
+    width: 75%;
+    align-items: center;
+    margin: 20px auto; /* Adjust the margin as needed */
+    margin-top: 40px; /* Adjust the margin as needed */
+    border: 1px solid rgb(11, 82, 86); /* Border color can be adjusted */
+    border-radius: 10px;
+    border-width: 3px;
+    padding: 20px; /* Adjust the padding as needed */ /*Change padding to increase space inside border and text*/
+    box-sizing: border-box;
+}
+
+/* Two parts inside the section */
+.section-part {
+    display: flex;
+    align-items: center;
+}
+
+.section-part .text-part-left {
+    flex: 1;
+    margin-right: 20px; /* Adjust the margin between text and image as needed */
+}
+
+.section-part .text-part-right {
+    flex: 1;
+    margin-left: 20px;
+}
+
+.section-part .image-part {
+    flex: 1;
+    align-items: center;
+}
+
+/* Image and caption styles */
+.image-container {
+    position: relative;
+    height: 500px; /* Set the height of the image container */
+    overflow: hidden;
+    display: contents;
+    justify-content: center; /* Center the image horizontally */
+    align-items: center; /* Center the image vertically */
+}
+
+.image-container img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+.image-caption-good {
+    margin: 0;
+    width: 100%;
+    text-align: justify;
+    margin-top: 10px; /* Adjust the margin as needed */
+    margin-right: 0;
+    font-style: italic;
+}
+
+.add-margin {
+    margin-bottom: 50px; /* Adjust the margin as needed */
+}
+
+
+.centered-paragraph-50 {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px; /* Adjust padding as needed */
+    box-sizing: border-box;
+    margin-bottom: 50px;
+}
+
+.centered-paragraph-50 p {
+    margin: 0; /* Remove default margin for the paragraph */
+    text-align: justify;
+}
